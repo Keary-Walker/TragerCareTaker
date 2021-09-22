@@ -17,11 +17,11 @@ struct SymptomView: View {
             Text("\(title)")
                 .font(.title)
                 .padding()
-            VStack(alignment: .leading) {
+            VStack() {
                 Text("\(content)")
             }
-            .padding()
         }
+        .padding()
     }
 }
 
