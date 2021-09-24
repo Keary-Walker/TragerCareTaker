@@ -1,0 +1,27 @@
+[
+	{
+        "id": "0",
+		"name": "Hallucinations",
+		"description": "When a person with Alzheimer's or other dementia hallucinates, they may see, hear, smell, taste or feel something that isn't there. Some hallucinations may be frightening, while others may involve ordinary visions of people, situations or objects from the past. \nHallucinations are false perceptions of objects or events involving the senses. These false perceptions are caused by changes within the brain that result from Alzheimer’s, usually in the later stages of the disease. The person may see the face of a former friend in a curtain or may see insects crawling on his or her hand. In other cases, a person may hear someone talking and may even engage in conversation with the imagined person."
+	},
+    {
+        "id": "1",
+        "name": "Apathy",
+        "description": "The most common of these changes is apathy, a loss of motivation and initiative. The apathetic person appears emotionally indifferent or even depressed. Apathy shares with depression the features of low energy and interest, poor self-care, and diminished activity. Apathy differs importantly from depression in that sad mood, tearfulness, self-deprecating feelings, and suicidal thoughts or behaviors are less often present in apathy than in depression."
+    },
+    {
+        "id": "2",
+        "name": "Sleep Disturbance",
+        "description": "Sleep disturbances affect more than half of severe persons with AD. The part of the brain which helps us tell day from night is compromised early in the course of the disease, so sleep problems occur early and represent one of the most difficult issues for caregivers. The person sleeps chaotically, do zing during the day and wandering at night. Changes in the sleep-wake cycle may contribute to the increased confusion, called sundowning, which often occurs in the later afternoons."
+    },
+    {
+        "id": "3",
+        "name": "Inappropriate sexual behavior",
+        "description": "Sexual behavior that is not appropriate to a person’s circumstances is often an inarticulately expressed request for closeness or comfort. Such inappropriate sexual behavior is a less frequent complication of AD, but is regarded as particularly disruptive because of the distress it may cause in others."
+    },
+    {
+        "id": "4",
+        "name": "Agitation and Aggression",
+        "description": "Agitation has been defined by Dr. Cohen-Mansfield, a psychologist who has studied it thoroughly, as “inappropriate verbal, vocal or motor activity that is not judged by an outside observer to be an obvious outcome of the needs or confusion of the individual.” Aggression may accompany agitation, threatening a dangerous situation for frail older adults with AD or for those in their vicinity."
+    }
+]
