@@ -11,9 +11,10 @@
 		39990DAF26EBB25300CE0945 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39990DAE26EBB25300CE0945 /* ContentView.swift */; };
 		39990DB126EBB25800CE0945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39990DB026EBB25800CE0945 /* Assets.xcassets */; };
 		39990DB426EBB25800CE0945 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39990DB326EBB25800CE0945 /* Preview Assets.xcassets */; };
-		39990DBB26EBB88100CE0945 /* BehaviorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39990DBA26EBB88100CE0945 /* BehaviorView.swift */; };
+		39990DBB26EBB88100CE0945 /* BehaviorItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39990DBA26EBB88100CE0945 /* BehaviorItemView.swift */; };
 		399F4BEA26FD709B00FC5164 /* behaviors.json in Resources */ = {isa = PBXBuildFile; fileRef = 399F4BE926FD709B00FC5164 /* behaviors.json */; };
 		399F4BEE26FD74C500FC5164 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399F4BED26FD74C500FC5164 /* HomeView.swift */; };
+		39BF0EB42702AF490009445F /* BehaviorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BF0EB32702AF490009445F /* BehaviorsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,9 +23,10 @@
 		39990DAE26EBB25300CE0945 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		39990DB026EBB25800CE0945 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39990DB326EBB25800CE0945 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		39990DBA26EBB88100CE0945 /* BehaviorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BehaviorView.swift; sourceTree = "<group>"; };
+		39990DBA26EBB88100CE0945 /* BehaviorItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BehaviorItemView.swift; sourceTree = "<group>"; };
 		399F4BE926FD709B00FC5164 /* behaviors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = behaviors.json; sourceTree = "<group>"; };
 		399F4BED26FD74C500FC5164 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		39BF0EB32702AF490009445F /* BehaviorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BehaviorsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +61,8 @@
 			children = (
 				399F4BE926FD709B00FC5164 /* behaviors.json */,
 				399F4BED26FD74C500FC5164 /* HomeView.swift */,
-				39990DBA26EBB88100CE0945 /* BehaviorView.swift */,
+				39BF0EB32702AF490009445F /* BehaviorsView.swift */,
+				39990DBA26EBB88100CE0945 /* BehaviorItemView.swift */,
 				39990DAC26EBB25300CE0945 /* TragerCareTakerApp.swift */,
 				39990DAE26EBB25300CE0945 /* ContentView.swift */,
 				39990DB026EBB25800CE0945 /* Assets.xcassets */,
@@ -148,8 +151,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				39990DAF26EBB25300CE0945 /* ContentView.swift in Sources */,
-				39990DBB26EBB88100CE0945 /* BehaviorView.swift in Sources */,
+				39990DBB26EBB88100CE0945 /* BehaviorItemView.swift in Sources */,
 				399F4BEE26FD74C500FC5164 /* HomeView.swift in Sources */,
+				39BF0EB42702AF490009445F /* BehaviorsView.swift in Sources */,
 				39990DAD26EBB25300CE0945 /* TragerCareTakerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -56,7 +56,7 @@ struct HomeView: View {
                         print("Button pressed!")
                     }
                     .buttonStyle(BlueButton())
-                    Text("Behavior")
+                    Text("Behaviors")
                 }
                 
                 VStack {
