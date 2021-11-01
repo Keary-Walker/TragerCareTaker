@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3962A3C8272F137D00C1EE6A /* VideosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3962A3C7272F137C00C1EE6A /* VideosView.swift */; };
+		397502AC273019B6003FA245 /* MyNotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397502AB273019B6003FA245 /* MyNotesView.swift */; };
+		397C3894271F48CF00D16246 /* SensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397C3893271F48CF00D16246 /* SensesView.swift */; };
+		397C3896271F49C000D16246 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397C3895271F49C000D16246 /* SignInView.swift */; };
+		397C3898271F49D600D16246 /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397C3897271F49D600D16246 /* CreateAccountView.swift */; };
+		398A99FB2726F4B900B3EDE3 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398A99FA2726F4B800B3EDE3 /* VideoView.swift */; };
 		39990DAD26EBB25300CE0945 /* TragerCareTakerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39990DAC26EBB25300CE0945 /* TragerCareTakerApp.swift */; };
 		39990DAF26EBB25300CE0945 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39990DAE26EBB25300CE0945 /* ContentView.swift */; };
 		39990DB126EBB25800CE0945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39990DB026EBB25800CE0945 /* Assets.xcassets */; };
@@ -18,6 +24,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3962A3C7272F137C00C1EE6A /* VideosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosView.swift; sourceTree = "<group>"; };
+		397502AB273019B6003FA245 /* MyNotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNotesView.swift; sourceTree = "<group>"; };
+		397C3893271F48CF00D16246 /* SensesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensesView.swift; sourceTree = "<group>"; };
+		397C3895271F49C000D16246 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		397C3897271F49D600D16246 /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
+		398A99FA2726F4B800B3EDE3 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 		39990DA926EBB25300CE0945 /* TragerCareTaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TragerCareTaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39990DAC26EBB25300CE0945 /* TragerCareTakerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TragerCareTakerApp.swift; sourceTree = "<group>"; };
 		39990DAE26EBB25300CE0945 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,11 +72,17 @@
 			isa = PBXGroup;
 			children = (
 				399F4BE926FD709B00FC5164 /* behaviors.json */,
+				397C3895271F49C000D16246 /* SignInView.swift */,
+				397C3897271F49D600D16246 /* CreateAccountView.swift */,
+				397C3893271F48CF00D16246 /* SensesView.swift */,
 				399F4BED26FD74C500FC5164 /* HomeView.swift */,
 				39BF0EB32702AF490009445F /* BehaviorsView.swift */,
 				39990DBA26EBB88100CE0945 /* BehaviorItemView.swift */,
 				39990DAC26EBB25300CE0945 /* TragerCareTakerApp.swift */,
 				39990DAE26EBB25300CE0945 /* ContentView.swift */,
+				398A99FA2726F4B800B3EDE3 /* VideoView.swift */,
+				3962A3C7272F137C00C1EE6A /* VideosView.swift */,
+				397502AB273019B6003FA245 /* MyNotesView.swift */,
 				39990DB026EBB25800CE0945 /* Assets.xcassets */,
 				39990DB226EBB25800CE0945 /* Preview Content */,
 			);
@@ -151,9 +169,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				39990DAF26EBB25300CE0945 /* ContentView.swift in Sources */,
+				397502AC273019B6003FA245 /* MyNotesView.swift in Sources */,
+				397C3896271F49C000D16246 /* SignInView.swift in Sources */,
+				397C3894271F48CF00D16246 /* SensesView.swift in Sources */,
 				39990DBB26EBB88100CE0945 /* BehaviorItemView.swift in Sources */,
 				399F4BEE26FD74C500FC5164 /* HomeView.swift in Sources */,
 				39BF0EB42702AF490009445F /* BehaviorsView.swift in Sources */,
+				3962A3C8272F137D00C1EE6A /* VideosView.swift in Sources */,
+				398A99FB2726F4B900B3EDE3 /* VideoView.swift in Sources */,
+				397C3898271F49D600D16246 /* CreateAccountView.swift in Sources */,
 				39990DAD26EBB25300CE0945 /* TragerCareTakerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

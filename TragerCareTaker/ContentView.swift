@@ -13,7 +13,7 @@ struct ContentView: View {
         VStack {
             TabView {
                 
-                Text("5 Senses placeholder view")
+                Text("Five Senses")
                     .tabItem {
                         Image(systemName: "book.circle")
                         Text("5 Senses")
