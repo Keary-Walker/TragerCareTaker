@@ -6,20 +6,21 @@
 //
 
 import SwiftUI
-
-struct BlueButton: ButtonStyle {
-    func makeBody(configuration: Configuration) -> some View {
-        configuration.label
-            .frame(width:30, height: 30)
-            .padding()
-            .background(Color(red: 0.01, green: 0.48, blue: 1))
-            .foregroundColor(.white)
-            .clipShape(Circle())
-    }
-}
+//
+//struct BlueButton: ButtonStyle {
+//    func makeBody(configuration: Configuration) -> some View {
+//        configuration.label
+//            .frame(width:30, height: 30)
+//            .padding()
+//            .background(Color(red: 0.01, green: 0.48, blue: 1))
+//            .foregroundColor(.white)
+//            .clipShape(Circle())
+//    }
+//}
 
 struct HomeView: View {
     @State private var searchContent: String = ""
+    @FocusState private var searchIsFocused: Bool
     var body: some View {
         NavigationView{
             VStack {
@@ -28,9 +29,10 @@ struct HomeView: View {
                     Text("Search:")
                     
                     TextField("", text: $searchContent)
+                        .focused($searchIsFocused)
                         .textFieldStyle(.roundedBorder)
                     Button("Confirm") {
-                        print("Implement search")
+                        searchIsFocused = false
                     }
                 }
                 .padding()
@@ -108,7 +110,7 @@ struct HomeView: View {
                 
                 Spacer()
             }
-            //.navigationTitle("Home")
+            .navigationBarTitle(Text(""), displayMode: .inline)
         }
     }
 }

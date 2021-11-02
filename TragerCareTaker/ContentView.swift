@@ -13,11 +13,14 @@ struct ContentView: View {
         VStack {
             TabView {
                 
-                Text("Five Senses")
-                    .tabItem {
-                        Image(systemName: "book.circle")
-                        Text("5 Senses")
-                    }
+                VStack {
+                    BehaviorItemView(title: "Will this go to the bottom?", content: "This is a test of whether my typing speed is enough to match the speed at which I think. This shows that that is obviously not the case I think much faster than I can type or than I can type correctly should I say dear sir?")
+                    Spacer()
+                }
+                .tabItem {
+                    Image(systemName: "book.circle")
+                    Text("5 Senses")
+                }
                 
                 Text("Resources placeholder view")
                     .tabItem {
