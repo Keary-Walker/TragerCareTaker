@@ -1,9 +1,9 @@
 [
-	{
+    {
         "id": "0",
-		"name": "Hallucinations",
-		"description": "When a person with Alzheimer's or other dementia hallucinates, they may see, hear, smell, taste or feel something that isn't there. Some hallucinations may be frightening, while others may involve ordinary visions of people, situations or objects from the past. \nHallucinations are false perceptions of objects or events involving the senses. These false perceptions are caused by changes within the brain that result from Alzheimer’s, usually in the later stages of the disease. The person may see the face of a former friend in a curtain or may see insects crawling on his or her hand. In other cases, a person may hear someone talking and may even engage in conversation with the imagined person."
-	},
+        "name": "Hallucinations",
+        "description": "When a person with Alzheimer's or other dementia hallucinates, they may see, hear, smell, taste or feel something that isn't there. Some hallucinations may be frightening, while others may involve ordinary visions of people, situations or objects from the past. Hallucinations are false perceptions of objects or events involving the senses. These false perceptions are caused by changes within the brain that result from Alzheimer’s, usually in the later stages of the disease. The person may see the face of a former friend in a curtain or may see insects crawling on his or her hand. In other cases, a person may hear someone talking and may even engage in conversation with the imagined person."
+    },
     {
         "id": "1",
         "name": "Apathy",
@@ -12,8 +12,7 @@
     {
         "id": "2",
         "name": "Sleep Disturbance",
-        "description": "Sleep disturbances affect more than half of severe persons with AD. The part of the brain which helps us tell day from night is compromised early in the course of the disease, so sleep problems occur early and represent one of the most difficult issues for caregivers. The person sleeps chaotically, do zing during the day and wandering at night. Changes in the sleep-wake cycle may contribute to the increased confusion, called sundowning, which often occurs in the later afternoons."
-    },
+        "description": "Sleep disturbances affect more than half of severe persons with AD. The part of the brain which helps us tell day from night is compromised early in the course of the disease, so sleep problems occur early and represent one of the most difficult issues for caregivers. The person sleeps chaotically, do zing during the day and wandering at night. Changes in the sleep-wake cycle
     {
         "id": "3",
         "name": "Inappropriate sexual behavior",
@@ -23,5 +22,70 @@
         "id": "4",
         "name": "Agitation and Aggression",
         "description": "Agitation has been defined by Dr. Cohen-Mansfield, a psychologist who has studied it thoroughly, as “inappropriate verbal, vocal or motor activity that is not judged by an outside observer to be an obvious outcome of the needs or confusion of the individual.” Aggression may accompany agitation, threatening a dangerous situation for frail older adults with AD or for those in their vicinity."
-    }
+    },
+    {
+        "id": "5",
+        "name":"withdrawal"
+        "description":"Individuals start to withdraw from social activities and contact with friends and family."
+    },
+    {
+        "id": "6",
+        "name":"Repetitive thoughts and Behaviors"
+        "description":"Individuals continuously engage in the same question or behaviors repeatedly. They may also repeat words or gestures as a means to soothe themselves. The behaviors may be an attempt to communicate a need or physical discomfort. The recommended approach is to try and identify the underlying cause."
+    },
+    {
+        "id": "7",
+        "name":"Disorientations"
+        "description":"People with dementia often become disoriented in time and space. This may be the result of confusion caused by changes in the brain, memory loss or perhaps due to difficulties recognising people and objects. This can happen in all types of Dementia but Disorientation is most common in Vascular dementia."
+    },
+    {
+        "id": "8",
+        "name":"Vision issue"
+        "description":"Posterior cortical atrophy (PCA) is the most common cause of vision issues - The key feature is usually visual problems without any discoverable eye disease, combined with cognitive problems that are milder than AD at the beginning. Persons with PCA experience the onset of symptoms earlier than those with Alzheimer’s type dementia, often in their mid - 50s to early 60s. With PCA, a person may have trouble grasping the “big picture” or picking out something specific from a clutter of other objects. Things don’t look right, so the patient may first turn to an eye doctor, but examining the eyes or changing lenses doesn’t address the underlying brain problem. This problem can be present in all types of dementia but it is more common in vascular. "
+    },
+    
+    {
+        "id": "9",
+        "name":"Complete Indecisive"
+        "description":"They are often confused, and as a result can become anxious, upset, or fearful. Their judgment may become poor and they may make bad decisions or become indecisive."
+    },
+    {
+        "id": "10",
+        "name":"Confusion with time or place"
+        "description":"Individuals with Alzheimer's often have difficulty keeping track of time or location. They may confuse how long ago a certain event occurred or how long they have been in a certain location. ​They may have trouble understanding something if it is not happening immediately. Sometimes they may forget where they are or how they got there."
+    },
+    {
+        "id": "11",
+        "name":"Dificulty in Familiar Tasks"
+        "description":"Normal age-related memory loss often results in taking slightly longer or having a little more difficulty in completing a once familiar task. During dementia or Alzheimer's, a once familiar task may become very difficult or even impossible to complete."
+    },
+    {
+        "id": "12",
+        "name":"Irritable"
+        "description":"The First Symptoms of Alzheimer's May Be Depression and Irritability. Irritability, depression, and nighttime behavior changes developed first. This was followed by anxiety, appetite changes, agitation, and apathy. Finally, elation, mobility disorders, hallucinations , delusions, and impulsive, inappropriate behavior were reported."
+    },
+    {
+        "id": "13",
+        "name":"No Judgement"
+        "description":"Poor judgment refers to the inability to make appropriate decisions. If your relative has Alzheimer's or another type of dementia, individuals might be unable to evaluate the different factors that should be considered when making a decision. This is common in dementia called Parkinson's."
+    },
+    {
+        "id": "14",
+        "name":"Paranoia"
+        "description":"Paranoia is a type of delusion in which a person may believe—without a good reason—that others are mean, lying, unfair, or “out to get me.” Individuals may become suspicious, fearful, or jealous of people."
+    },
+    {
+        "id": "15",
+        "name":"Depressed"
+        "description":"Depression is common in parkinson's. Depression is very common among people with Alzheimer's, especially during the early and middle stages. Treatment is available and can make a significant difference in quality of life. Identifying depression in someone with Alzheimer's can be difficult, since dementia can cause some of the same symptoms. Examples of symptoms common to both depression and dementia include: Apathy, Loss of interest in activities and hobbies, Social withdrawal, isolation, trouble concentrating, impaired thinking."
+    },
+    {
+        "id": "16",
+        "name":"Won't listen to reason"
+        "description":" They tend to pay more attention to what they see, not what they hear. As humans, our instinct is to get information from what we see. Visual information becomes even more dominant as changes in the brain make it more difficult to understand speech."
+    },
+   
+    {
+    },
 ]
+

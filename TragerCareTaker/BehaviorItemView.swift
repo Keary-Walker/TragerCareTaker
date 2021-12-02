@@ -13,15 +13,15 @@ struct BehaviorItemView: View {
     @State var content: String
     
     var body: some View {
-        VStack() {
+        VStack {
             Text("\(title)")
                 .font(.title)
                 .padding()
-            VStack() {
+            VStack {
                 Text("\(content)")
             }
+            .padding()
         }
-        .padding()
     }
 }
 

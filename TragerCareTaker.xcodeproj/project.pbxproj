@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39180F3927547981002A27A1 /* BehaviorObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39180F3827547981002A27A1 /* BehaviorObj.swift */; };
+		39180F3B275483EF002A27A1 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39180F3A275483EF002A27A1 /* Bundle-Decodable.swift */; };
+		3934F29727584A4500B47032 /* WorksheetObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3934F29627584A4500B47032 /* WorksheetObj.swift */; };
+		3934F29927584A5E00B47032 /* WorksheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3934F29827584A5E00B47032 /* WorksheetView.swift */; };
+		3934F29B27584D5400B47032 /* Worksheet.JSON in Resources */ = {isa = PBXBuildFile; fileRef = 3934F29A27584D5400B47032 /* Worksheet.JSON */; };
+		3934F29D27584DF900B47032 /* WorksheetItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3934F29C27584DF900B47032 /* WorksheetItemView.swift */; };
+		393BA78D2756738E00EDD20D /* AddNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393BA78C2756738D00EDD20D /* AddNoteView.swift */; };
 		3962A3C8272F137D00C1EE6A /* VideosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3962A3C7272F137C00C1EE6A /* VideosView.swift */; };
 		397502AC273019B6003FA245 /* MyNotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397502AB273019B6003FA245 /* MyNotesView.swift */; };
 		397C3894271F48CF00D16246 /* SensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397C3893271F48CF00D16246 /* SensesView.swift */; };
@@ -24,6 +31,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39180F3827547981002A27A1 /* BehaviorObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BehaviorObj.swift; sourceTree = "<group>"; };
+		39180F3A275483EF002A27A1 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		3934F29627584A4500B47032 /* WorksheetObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorksheetObj.swift; sourceTree = "<group>"; };
+		3934F29827584A5E00B47032 /* WorksheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorksheetView.swift; sourceTree = "<group>"; };
+		3934F29A27584D5400B47032 /* Worksheet.JSON */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Worksheet.JSON; path = ../../../../../../Downloads/Worksheet.JSON; sourceTree = "<group>"; };
+		3934F29C27584DF900B47032 /* WorksheetItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorksheetItemView.swift; sourceTree = "<group>"; };
+		393BA78C2756738D00EDD20D /* AddNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteView.swift; sourceTree = "<group>"; };
 		3962A3C7272F137C00C1EE6A /* VideosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosView.swift; sourceTree = "<group>"; };
 		397502AB273019B6003FA245 /* MyNotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNotesView.swift; sourceTree = "<group>"; };
 		397C3893271F48CF00D16246 /* SensesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensesView.swift; sourceTree = "<group>"; };
@@ -71,11 +85,17 @@
 		39990DAB26EBB25300CE0945 /* TragerCareTaker */ = {
 			isa = PBXGroup;
 			children = (
+				3934F29827584A5E00B47032 /* WorksheetView.swift */,
+				3934F29C27584DF900B47032 /* WorksheetItemView.swift */,
+				3934F29627584A4500B47032 /* WorksheetObj.swift */,
+				39180F3A275483EF002A27A1 /* Bundle-Decodable.swift */,
+				3934F29A27584D5400B47032 /* Worksheet.JSON */,
 				399F4BE926FD709B00FC5164 /* behaviors.json */,
 				397C3895271F49C000D16246 /* SignInView.swift */,
 				397C3897271F49D600D16246 /* CreateAccountView.swift */,
 				397C3893271F48CF00D16246 /* SensesView.swift */,
 				399F4BED26FD74C500FC5164 /* HomeView.swift */,
+				39180F3827547981002A27A1 /* BehaviorObj.swift */,
 				39BF0EB32702AF490009445F /* BehaviorsView.swift */,
 				39990DBA26EBB88100CE0945 /* BehaviorItemView.swift */,
 				39990DAC26EBB25300CE0945 /* TragerCareTakerApp.swift */,
@@ -83,6 +103,7 @@
 				398A99FA2726F4B800B3EDE3 /* VideoView.swift */,
 				3962A3C7272F137C00C1EE6A /* VideosView.swift */,
 				397502AB273019B6003FA245 /* MyNotesView.swift */,
+				393BA78C2756738D00EDD20D /* AddNoteView.swift */,
 				39990DB026EBB25800CE0945 /* Assets.xcassets */,
 				39990DB226EBB25800CE0945 /* Preview Content */,
 			);
@@ -157,6 +178,7 @@
 			files = (
 				399F4BEA26FD709B00FC5164 /* behaviors.json in Resources */,
 				39990DB426EBB25800CE0945 /* Preview Assets.xcassets in Resources */,
+				3934F29B27584D5400B47032 /* Worksheet.JSON in Resources */,
 				39990DB126EBB25800CE0945 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -171,13 +193,19 @@
 				39990DAF26EBB25300CE0945 /* ContentView.swift in Sources */,
 				397502AC273019B6003FA245 /* MyNotesView.swift in Sources */,
 				397C3896271F49C000D16246 /* SignInView.swift in Sources */,
+				39180F3927547981002A27A1 /* BehaviorObj.swift in Sources */,
+				3934F29727584A4500B47032 /* WorksheetObj.swift in Sources */,
+				3934F29927584A5E00B47032 /* WorksheetView.swift in Sources */,
+				39180F3B275483EF002A27A1 /* Bundle-Decodable.swift in Sources */,
 				397C3894271F48CF00D16246 /* SensesView.swift in Sources */,
 				39990DBB26EBB88100CE0945 /* BehaviorItemView.swift in Sources */,
+				3934F29D27584DF900B47032 /* WorksheetItemView.swift in Sources */,
 				399F4BEE26FD74C500FC5164 /* HomeView.swift in Sources */,
 				39BF0EB42702AF490009445F /* BehaviorsView.swift in Sources */,
 				3962A3C8272F137D00C1EE6A /* VideosView.swift in Sources */,
 				398A99FB2726F4B900B3EDE3 /* VideoView.swift in Sources */,
 				397C3898271F49D600D16246 /* CreateAccountView.swift in Sources */,
+				393BA78D2756738E00EDD20D /* AddNoteView.swift in Sources */,
 				39990DAD26EBB25300CE0945 /* TragerCareTakerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

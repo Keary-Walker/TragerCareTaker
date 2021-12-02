@@ -9,6 +9,8 @@ import SwiftUI
 
 struct MyNotesView: View {
     
+    @State private var showingSheet = false
+        
     @State var notes = ["Dementia Susceptibility" : "Dementia affects the elderly more than any other demographic, but that doesn’t mean it’s exclusive. In fact, dementia can affect anyone. That’s because dementia is the result of several kinds of diseases, not just one. If a younger person has one of several diseases that cause dementia, such as diabetes, hypertension, or arteriosclerosis, they could be at risk for dementia.",
                         "Most Common Form" : "Many think that Alzheimer’s disease and dementia are different. But in reality, they’re related. Alzheimer’s disease is a symptom of dementia. In fact, it’s the most common form of dementia. If you or a loved one are exhibiting signs of Alzheimer’s such as depression, disorientation, or impaired communication, contact your doctor and bring up dementia. You may be experiencing other signs of dementia aside from Alzheimer’s disease and not even know it.",
                         "Symptoms" : "It’s true that Alzheimer’s and dementia are related, but there are many other kinds of symptoms out there. Behavioral changes, strange food cravings, and impaired judgment on distance and speeds are just a few signs of dementia outside of the typical Alzheimer’s symptoms. Keep in mind that dementia is not a disease, it’s the result of a culmination of other diseases. Check with your doctor to determine if any diseases you may have could result in dementia.",
@@ -26,6 +28,15 @@ struct MyNotesView: View {
                     Text(value)
                         .lineLimit(3)
                 }
+            }
+        }
+        .toolbar {
+            Button("Add") {
+                showingSheet.toggle()
+            }
+            .sheet(isPresented: $showingSheet) {
+                //AddNoteView()
+                Text("Placholder for AddNoteView")
             }
         }
     }
